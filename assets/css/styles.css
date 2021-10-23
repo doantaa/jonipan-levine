@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Quicksand:wght@600&display=swap');
+body {
+    font-family: 'Quicksand';
+}
+header {
+    height: 120px;
+    background-color : #103968;
+    color: white;
+
+}
+.container {
+    width: 80%;
+}
+
+nav , .header-contact{
+    float: right;
+}
+
+.contact-btn {
+    float: right;
+    margin-top: 37px;
+    padding: 10px;
+}
+nav {
+    padding-right: 100px;
+}
+
+nav li {
+    display: inline;
+    padding: 0 20px;
+    margin-top: 60px;
+}
+
+.container {
+    line-height: 120px;
+}
+
+
+
