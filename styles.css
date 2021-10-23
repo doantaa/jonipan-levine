@@ -35,9 +35,20 @@ nav li a {
     text-decoration: none;
     color: #fff;
 }
-.container {
+header .container {
     line-height: 120px;
 }
+
+.carousel-image {
+    float: right;
+}
+
+.container h1 {
+
+    float: left;
+}
+
+
 
 
 
