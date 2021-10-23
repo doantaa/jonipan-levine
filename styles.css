@@ -31,6 +31,10 @@ nav li {
     margin-top: 60px;
 }
 
+nav li a {
+    text-decoration: none;
+    color: #fff;
+}
 .container {
     line-height: 120px;
 }
