@@ -8,9 +8,7 @@ header {
     color: white;
 
 }
-.container {
-    width: 80%;
-}
+
 
 nav , .header-contact{
     float: right;
@@ -43,10 +41,7 @@ header .container {
     float: right;
 }
 
-.container h1 {
 
-    float: left;
-}
 
 
 
