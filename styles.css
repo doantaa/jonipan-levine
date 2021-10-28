@@ -1,45 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Quicksand:wght@600&display=swap');
 body {
     font-family: 'Quicksand';
-}
-header {
-    height: 120px;
-    background-color : #103968;
-    color: white;
-
+    /* background-color: cyan; */
 }
 
-
-nav , .header-contact{
-    float: right;
+.carousel-item {
+    /* background-color: darkblue; */
+    width: 1000px;
+    margin: 40px 0 0 58px;
+    padding: 40px;
 }
 
-.contact-btn {
-    float: right;
-    margin-top: 37px;
-    padding: 10px;
-}
-nav {
-    padding-right: 100px;
+.carousel-item img {
+    float: left;
+    width: 40%;
 }
 
-nav li {
-    display: inline;
-    padding: 0 20px;
-    margin-top: 60px;
+.carousel-captions {
+    float: left;
+    margin: 70px 0 0 40px;
+    /* background-color: darkred; */
 }
 
-nav li a {
-    text-decoration: none;
-    color: #fff;
-}
-header .container {
-    line-height: 120px;
-}
-
-.carousel-image {
-    float: right;
-}
 
 
 
