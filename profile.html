@@ -5,35 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <img src="https://i.ibb.co/sQQMG12/logo.png" alt="" class="header-logo">
-            <button class="btn bg-warning rounded-pill contact-btn">Contact Us</button>
-            <nav>
-                <ul>
-                    <li> <a href="index.html">Home</a> </li>
-                    <li> <a href="profile.html">Profile</a> </li>
-                    <li> <a href="kabinet.html">Kabinet</a> </li>
-                    <li> <a href="artikel.html">Artikel</a> </li>
-                    <li> <a href="galeri.html">Galeri</a> </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        <!-- NAVIGATION -->
+        <nav class="navbar navbar-expand-md ">
+            <div class="container">
+              <a class="navbar-brand"><img src="https://i.ibb.co/sQQMG12/logo.png" alt=""></a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ">
     
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="kabinet.html">Kabinet</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Artikel</a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link" href="galeri.html">Galeri</a>
+                  </li>
+                </ul>
+    
+                <button class="btn rounded-pill btn-outline-warning d-flex" type="submit">Contact Us</button>
+              </div>
+            </div>
+          </nav>
+          <!-- END NAVIGATION -->
+    </header>    
     <main>
-        <h3>Sejarah</h3>
-        <img src="https://i.ibb.co/h8hfDLW/profil.png" alt="">
-        <p>Organisasi ini terbentuk pada 18 Oktober 2021 yang didirikan oleh Dekan Fakultas Informatika, pada awalnya organisasi ini dibentuk untuk urusan administrasi dan pembagian mahasiswa tiap Program Studi, namun seiring berjalannya waktu organisasi ini mulai mendirikan beberapa tim riset dan pengabdian kepada masyarakat khususnya pada daerah kampus.</p>
+        <div class="d-flex profiles justify-content-center">
+            <img  src="https://i.ibb.co/921DqYx/Group-50.png" alt="">
+        </div>
+            <p class="d-flex profiles justify-content-center">HMIT (Himpunan Mahasiswa Informatika) adalah sebuah organisasi yang berada di Universitas Leno </p>
+        <h3 class="d-flex profiles justify-content-center">Sejarah</h3>
+        <div class="d-flex profiles justify-content-center">
+            <img src="https://i.ibb.co/h8hfDLW/profil.png" alt="">
+        </div>
 
-        <h3>Visi</h3>
-        <p>Menjadi organisasi yang sehat dan mampu berkontribusi bagi kampus maupun masyarakat</p>
-        <h3>Misi</h3>
-        <p>Melakukan kegiatan pengabdian kepada masyarakat dalam hal pengembangan teknologi</p>
-        <p>Melakukan riset dengan tim yang beranggotakan dosen dan mahasiswa untuk berkontribusi di kampus maupun diluar kampu</p>
-        <p>Menjalankan prinsip organisasi yang sehat bagi semua anggota</p>
+        <p class="container">Organisasi ini terbentuk pada 18 Oktober 2021 yang didirikan oleh Dekan Fakultas Informatika, pada awalnya organisasi ini dibentuk untuk urusan administrasi dan pembagian mahasiswa tiap Program Studi, namun seiring berjalannya waktu organisasi ini mulai mendirikan beberapa tim riset dan pengabdian kepada masyarakat khususnya pada daerah kampus.</p>
+
+        <div class="container">
+            <h3 class="d-flex profiles justify-content-center">Visi</h3>
+            <p class="d-flex profiles justify-content-start">Menjadi organisasi yang sehat dan mampu berkontribusi bagi kampus maupun masyarakat</p>
+            <h3 class="d-flex profiles justify-content-center">Misi</h3>
+            <p class="d-flex profiles justify-content-start">Melakukan kegiatan pengabdian kepada masyarakat dalam hal pengembangan teknologi</p>
+            <p class="d-flex profiles justify-content-start">Melakukan riset dengan tim yang beranggotakan dosen dan mahasiswa untuk berkontribusi di kampus maupun diluar kampu</p>
+            <p class="d-flex profiles justify-content-start">Menjalankan prinsip organisasi yang sehat bagi semua anggota</p>
+        </div>
     </main>
+    <footer>
+        <div class="d-flex profiles container justify-content-center">
+          <div class="footer-left">
+            <img src="https://i.ibb.co/KXWWMWK/HMIT-1.png" alt="">
+            <p>HIMPUNAN MAHASISWA TEKNIK INFORMATIKA
+                UNIVERSITAS LENO </p>
+            <p>Jalan universitas, kota, provinsi 22001</p>
+          </div>
+          <div class="footer-right">
+            
+            <ul class="list">
+              <li class="footer-title">PRANALA <span>LUAR</span></li>
+              <li>Kemendristekdikti</li>
+              <li>Himpunan Mahasiswa Teknik Informatika</li>
+            </ul>
+            <ul class="list">
+                <li class="footer-title">TENTANG <span>KAMI</span></li>
+                <li>Sejarah</li>
+                <li>Visi & Misi</li>
+                <li>Prestasi</li>
+                <li>Fasilitas</li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+    
+<script src="assets/js/bootstrap.js"></script>
 </body>
 </html>

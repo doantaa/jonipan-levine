@@ -115,6 +115,7 @@ footer {
     width: 100%;
     height: 400px;
     background-color: #103968 ;
+    color: white;
 }
 
 
@@ -124,6 +125,9 @@ footer {
     max-width: 400px;
 }
 
+.footer-left img {
+    margin-bottom: 20px;
+}
 .footer-right {
     float: right;
 }
@@ -142,3 +146,9 @@ footer {
 .footer-right ul {
     float: right;
 }
+
+.profiles {
+    margin: 40px 0;
+}
+
+
