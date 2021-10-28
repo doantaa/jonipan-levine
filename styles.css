@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+ul, ul li {
+    list-style: none;
+}
+
 .btn {
     padding: 12px 24px;
 }
@@ -15,7 +19,18 @@ a {
 .navbar {
     background-color: #103968;
     color: white;
+    height: 120px;
 }
+
+.navbar a {
+    font-size: 20px;
+    color: white;
+}
+
+.navbar a:hover {
+    color: #a7a7a7;    
+}
+
 .container {
     max-width: 1120px;
 }
@@ -85,7 +100,7 @@ a {
     margin-bottom: 100px;
 }
 
-.gallery span {
+span {
     color: #FFD500;
     padding-right: 10px;
 }
@@ -95,6 +110,35 @@ a {
     padding-left: 10px;
 }
 
+footer {
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    background-color: #103968 ;
+}
 
 
+.footer-left {
+    float: left;
+    padding-top: 70px;
+    max-width: 400px;
+}
 
+.footer-right {
+    float: right;
+}
+
+.footer-title {
+    font-size: 20px;
+}
+
+.footer-right .list {
+    margin-top: 70px;
+    padding-left: 50px;
+    max-width: 50%;
+    font-size: 16px;
+    line-height: 200%;
+}
+.footer-right ul {
+    float: right;
+}
