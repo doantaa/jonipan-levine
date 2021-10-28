@@ -4,23 +4,57 @@ body {
     /* background-color: cyan; */
 }
 
+.navbar {
+    background-color: #103968;
+    color: white;
+}
+.container {
+    max-width: 1120px;
+}
 .carousel-item {
     /* background-color: darkblue; */
-    width: 1000px;
-    margin: 40px 0 0 58px;
-    padding: 40px;
+    margin: 50px 0;
+    padding: 40px 0;
 }
 
 .carousel-item img {
-    float: left;
+    float: right;
     width: 40%;
 }
 
 .carousel-captions {
     float: left;
-    margin: 70px 0 0 40px;
+    margin-top: 80px;
     /* background-color: darkred; */
 }
+.container-blue {
+    padding: 50px 0;
+    border-radius: 30px;
+    background-color: #103968;
+    color: #fff;
+}
+.departement h2 {
+    margin-bottom: 48px;
+}
+
+.kabinet {
+    margin-top: 50px;
+    padding: 50px 0;
+}
+
+.kabinet h2 {
+    margin-bottom: 40px;
+}
+
+.kab-content {
+    padding: 0 60px;
+}
+
+.kab-content img {
+    margin-bottom: 12px  ;
+}
+
+
 
 
 
