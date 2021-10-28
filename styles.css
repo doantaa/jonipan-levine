@@ -4,6 +4,14 @@ body {
     /* background-color: cyan; */
 }
 
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 12px 24px;
+}
+
 .navbar {
     background-color: #103968;
     color: white;
@@ -51,14 +59,41 @@ body {
 }
 
 .kab-content img {
-    margin-bottom: 12px  ;
+    margin-bottom: 12px;
 }
 
+.article {
+    display: inline-block;
+    padding: 100px;
 
+    /* background-color: teal; */
+    margin-bottom: 100px;
+}
 
+.article img{
+    float: left;
+    
+}
 
+.article-desc {
+    float: left;
+    padding-left: 100px;
+    /* background-color: tomato; */
+}
 
+.gallery {
+    margin-bottom: 100px;
+}
 
+.gallery span {
+    color: #FFD500;
+    padding-right: 10px;
+}
+
+.gallery img {
+    margin: 20px 0;
+    padding-left: 10px;
+}
 
 
 
