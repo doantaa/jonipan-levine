@@ -52,7 +52,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #fafafaf2;
+    background-color: #103968;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,7 +75,7 @@
   
   .image-gallery .image-box .details .title {
     margin-bottom: 8px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     position: relative;
     top: -5px;
@@ -110,7 +110,7 @@
   
   .image-gallery .image-box .details .title a,
   .image-gallery .image-box .details .category a {
-    color: #222222;
+    color: #fff;
     text-decoration: none;
   }
   
@@ -127,3 +127,7 @@
     }
   }
   
+  .carousel-item {
+    max-height: 800px;
+    background-size: cover;
+  }
