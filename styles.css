@@ -151,4 +151,10 @@ footer {
     margin: 40px 0;
 }
 
+.section {
+    display: inline-block;
+    margin: 40px 0;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #a7a7a7;
+}
 
