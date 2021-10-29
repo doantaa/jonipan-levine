@@ -36,8 +36,11 @@ ul, ul li {
 .container {
     max-width: 1120px;
 }
+
+.carousel-indicator {
+    background-color: #FFD500;
+}
 .carousel-item {
-    /* background-color: darkblue; */
     margin: 50px 0;
     padding: 40px 0;
 }
