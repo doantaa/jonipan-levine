@@ -26,10 +26,11 @@ ul, ul li {
 .navbar a {
     font-size: 20px;
     color: white;
+
 }
 
 .navbar a:hover {
-    color: #a7a7a7;    
+    color: #FFD500;    
 }
 
 .container {
